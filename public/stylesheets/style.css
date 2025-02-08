@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: rgb(168, 115, 18);
     margin: 0px;
     text-align: center;
 }
@@ -10,6 +10,21 @@ body {
     align-items: center;
 }
 
+.item-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+   
+}
+li a {
+    width: 100%;
+}
 form {
     display: flex;
     flex-direction: column;
